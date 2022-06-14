@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/Scss/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="responsive-menu d-flex justify-content-around">
+        <ul class="">
+            <li><a href="">Home</a> </li>
+            <li><a href="">About</a> </li>
+            <li><a href="">Services</a> </li>
+            <li><a href="">Portfolio</a> </li>
+            <li><a href="">Team</a> </li>
+            <li><a href="">Pricing</a> </li>
+            <li><a href="">Blog</a> </li>
+            <li><a class="dropdown" href="">DropDown
+                <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+            </a> </li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <i class="fa-solid fa-x"></i>
+    </div>
+    <header>
+        <nav>
+           <div class="container">
+              <div class="row ">
+                 <div class="start d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <h3 class="text-light">
+                            START BOOTSTRAP
+                        </h3>
+                     </div>
+                     <button type="button" class="btn btn-secondary d-flex justify-content-between menu">
+                        Menu
+                        <i class="fa-solid fa-bars mt-2 ms-1"></i>
+                     </button>
+                     <div class="service">
+                        <ul class="d-flex">
+                            <li><a href="">PORTFOLIO</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                     </div>
+                 </div>
+              </div>
+           </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="main-page" class="py-5">
+           <div class="frelaceer text-center">
+              <img src="/assets/Image/avataaars.svg">
+              <h1 class="text-light">START BOOTSTRAP</h1>
+              <div class="lineAndStar d-flex justify-content-between">
+                
+                <div class="lines"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="lines"></div>
+              </div>
+              <p class="text-light">Graphic Artist - Web Designer - Illustrator</p>
+           </div> 
+        </section>
+        <section id="card" class="mb-5">
+           <div class="container">
+             <div class="row">
+               <div class="potfolio text-center col-lg-12 mt-5">
+                  <p>PORTFOLIO</p>
+                  <div class="lineAndStars d-flex justify-content-between">
+                    <div class="line porfolio-lines"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="line porfolio-lines"></div>
+                  </div>
+               </div>
+               <div class="cards col-lg-4">
+                <img src="/assets/Image/Cards/cabin.png" alt="">
+               </div>
+               <div class="cards col-lg-4">
+                <img src="/assets/Image/Cards/cake.png" alt="">
+               </div>
+               <div class="cards col-lg-4">
+                <img src="/assets/Image/Cards/circus.png" alt="">
+               </div>
+               <div class="cards col-lg-4">
+                <img src="/assets/Image/Cards/game.png" alt="">
+               </div>
+               <div class="cards col-lg-4">
+                <img src="/assets/Image/Cards/safe.png" alt="">
+               </div>
+               <div class="cards col-lg-4">
+                <img src="/assets/Image/Cards/submarine.png" alt="">
+               </div>
+             </div>
+           </div>
+        </section>
+        <section id="about">
+            <div class="description text-light text-center">
+               <p>About</p>
+               <div class="lineAndStar-about d-flex justify-content-between">
+                <div class="about-lines"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="about-lines"></div>
+              </div>
+            </div>
+           <div class="abouts justify-content-between mt-3 d-flex">
+             <div class="texts text-center">
+                <p>
+                    You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                </p>
+             </div>
+             <div class=" texts text-center">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+             </div>
+           </div>
+           <div class="input row mt-5">
+            <a href="" class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <span><i class="fa-solid fa-download"></i></span><span class="ms-2">Free Download</span>
+               </a>
+           </div>
+        </section>
+        <section id="contacts" class="py-5">
+            <div class="aboutContact text-center">
+               <p>
+                  Contact
+               </p>
+               <div class="stars d-flex justify-content-between">
+                 <div class="line"></div>
+                 <i class="fa-solid fa-star mt-1"></i>
+                 <div class="line"></div>
+               </div>
+            </div>
+          <div class="contactMe w-50 mt-4">
+              <form action="" class="row">
+                <input type="text" placeholder="Full name" class="""> <br>
+                <input type="text" placeholder="Email address" class=""> <br>
+                <input type="text" placeholder="Phone number" class=""> <br>
+                <textarea name="" id="" cols="100" rows="5" placeholder="Message" style="border: none; border-bottom: 1px solid gray;" ></textarea>
+              </form>
+              <button type="button" class="btn btn-secondary mt-3">Send</button>
+          </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot row justify-content-around">
+            <div class="end col-lg-4 col-md-12 col-sm-12 col-12 mt-3">
+                <p>LOCATION</p>
+                <p>2215 John Daniel Drive
+                    Clark, MO 65243</p>
+            </div>
+            <div class="end col-lg-4 col-md-12 col-sm-12 col-12 mt-3">
+                <p>AROUND THE WEB</p>
+                <div class="icons d-flex">
+                    <i class="fa-brands fa-facebook text-center"></i>
+                    <i class="fa-brands fa-instagram-square text-center"></i>
+                    <i class="fa-solid fa-basketball text-center"></i>
+                    <i class="fa-brands fa-invision text-center"></i>
+                </div>
+            </div>
+            <div class="end col-lg-4 col-md-12 col-sm-12 col-12 mt-3">
+                <p>ABOUT FREELANCER</p>
+                <p>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap .</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/Js/script.js"></script>
+</body>
+</html>
